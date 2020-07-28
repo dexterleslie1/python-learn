@@ -21,3 +21,20 @@ else :
 var_num = 9
 if var_num>=0 and var_num<=10 :
  print("var_num is between 0 to 10")
+
+# None and empty list demonstration
+x = []
+y = None
+
+print("Type of x is " + str(type(x)))
+print("Type of y is " + str(type(y)))
+
+if x:
+ print("x list is not empty")
+else:
+ print("x list is empty")
+
+if y:
+ print("y variable is not None")
+else:
+ print("y variable is None")
